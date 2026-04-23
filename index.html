@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lago Puelo - Propiedades</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;}
+        body{font-family:system-ui, -apple-system, sans-serif;background:#eef2f5;padding:12px;}
+        .container{max-width:1400px;margin:0 auto;}
+        h1{font-size:1.5rem;}
+        .subtitulo{color:#2c5f8a;margin-bottom:20px;font-size:0.85rem;background:#e6f0f8;padding:8px;border-radius:12px;}
+        .zona{background:white;border-radius:20px;margin-bottom:30px;overflow:hidden;box-shadow:0 2px 8px rgba(0,0,0,0.05);}
+        .zona-titulo{background:#1e4a6b;color:white;padding:12px 18px;font-weight:bold;font-size:1.3rem;}
+        .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;padding:20px;}
+        .tarjeta{background:white;border-radius:16px;border:1px solid #e2e8f0;overflow:hidden;transition:0.1s;}
+        .tarjeta:hover{transform:translateY(-2px);box-shadow:0 6px 12px rgba(0,0,0,0.1);}
+        .foto{width:100%;height:180px;background:#cbd5e1;background-size:cover;background-position:center;display:flex;align-items:flex-end;justify-content:flex-end;padding:6px;}
+        .foto input{width:70%;padding:4px 8px;font-size:11px;border-radius:20px;border:1px solid #ccc;background:rgba(255,255,255,0.9);}
+        .info{padding:12px;}
+        .precio{font-size:1.5rem;font-weight:800;color:#1e6f3f;margin:4px 0;}
+        .nombre{font-weight:700;font-size:0.9rem;margin-bottom:6px;}
+        .detalle{font-size:0.75rem;display:flex;flex-wrap:wrap;gap:6px;margin:8px 0;}
+        .detalle span{background:#eef2f6;padding:2px 8px;border-radius:20px;}
+        .obs{background:#fff3e0;padding:6px 10px;border-radius:12px;font-size:0.7rem;margin:8px 0;border-left:3px solid #f5a623;}
+        .link{font-size:0.7rem;margin-top:8px;}
+        .link a{color:#1e6f3f;text-decoration:none;word-break:break-all;}
+        .badge{display:inline-block;background:#2c5f8a;color:white;font-size:0.6rem;padding:2px 8px;border-radius:20px;margin-bottom:6px;}
+        .footer{text-align:center;font-size:0.7rem;margin:24px;color:#6c757d;}
+        @media(max-width:640px){.grid{grid-template-columns:1fr;padding:12px;}}
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>🏡 Lago Puelo | Casas y Terrenos</h1>
+    <div class="subtitulo">
+        📸 <strong>Fotos automáticas:</strong> ZonaProp ya tienen imagen | MercadoLibre: pegá la URL de la foto en el campo
+        <br> ✅ Ordenado por Zona + menor precio | Incluye búngalos, lotes y casas
+    </div>
+
+    <!-- ================= ZONA CENTRO ================= -->
+    <div class="zona"><div class="zona-titulo">📍 Centro + Ruta 16</div><div class="grid">
+
+        <!-- La margaritas - ZonaProp ID: 54704587 -->
+        <div class="tarjeta"><div class="foto" id="foto1" 
+            style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/54/70/45/87/1200x1200/1993521041.jpg')"></div><div class="info"><div class="precio">USD 28.000</div><div class="nombre">La margaritas y ruta 16</div><div class="detalle"><span>Terreno 500m²</span></div><div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/vecltrin-lotes-en-casco-urbano-lago-puelo-excelente-ubicacion-54704587.html" target="_blank">🔗 Ver publicación</a></div></div></div>
+
+        <!-- Los cohiues - ZonaProp ID: 56242549 -->
+        <div class="tarjeta"><div class="foto" id="foto2" 
+            style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/56/24/25/49/1200x1200/1975910434.jpg?isFirstImage=true')"></div><div class="info"><div class="precio">USD 29.000</div><div class="nombre">calle Los cohiues</div><div class="detalle"><span>Terreno 500/980m²</span></div><div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/vecltrin-terrenos-en-lago-puelo-casco-urbano-todos-los-56242549.html" target="_blank">🔗 Ver publicación</a></div></div></div>
+
+        <!-- Mutisias - ZonaProp ID: 58455128 -->
+        <div class="tarjeta"><div class="foto" id="foto3" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/58/45/51/28/1200x1200/2035380794.jpg?isFirstImage=true')"></div><div class="info"><div class="precio">USD 40.000</div><div class="nombre">calle mutisias</div><div class="detalle"><span>Terreno 928m²</span></div><div class="obs">📍 detrás del hospital</div><div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/vecltrin-terreno-en-el-centro-de-lago-puelo-a-m-de-la-plaza-58455128.html" target="_blank">🔗 Ver publicación</a></div></div></div>
+
+        <!-- Cerro Cubidor - ZonaProp ID: 56149314 -->
+        <div class="tarjeta"><div class="foto" id="foto4" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/56/14/93/14/1200x1200/1973574523.jpg?isFirstImage=true')"></div><div class="info"><div class="precio">USD 54.000</div><div class="nombre">cerro cubidor</div><div class="detalle"><span>Terreno 1000m²</span></div><div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/vecltrin-terreno-de-1000-m-sup2--en-lago-puelo-so-36-56149314.html" target="_blank">🔗 Ver publicación</a></div></div></div>
+
+        <!-- Casa Av Los Notros - ZonaProp ID: 48242511 -->
+        <div class="tarjeta"><div class="foto" id="foto5" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/48/24/25/11/1200x1200/1878281843.jpg?isFirstImage=true')"></div><div class="info"><div class="precio">USD 95.000</div><div class="nombre">100m Av Los Notros</div><div class="detalle"><span>65m² cub</span><span>terreno 200m²</span><span>Gas</span></div><div class="obs">Regular | Mejora media</div><div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/veclcain-casa-centro-48242511.html" target="_blank">🔗 Ver publicación</a></div></div></div>
+
+        <!-- Casa Ruta 16 - ZonaProp ID: 45711253 -->
+        <div class="tarjeta"><div class="foto" id="foto6" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/45/71/12/53/1200x1200/1878482508.jpg?isFirstImage=true')"></div><div class="info"><div class="precio">USD 105.000</div><div class="nombre">Casa Ruta 16</div><div class="detalle"><span>100m² cub</span><span>terreno 1000m²</span><span>3 dorm</span><span>Gas</span></div><div class="obs">habitable | Mejora baja</div><div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/veclcain-casa-ruta-16-45711253.html" target="_blank">🔗 Ver publicación</a></div></div></div>
+
+        <!-- Casa 5 ambientes - ZonaProp ID: 58792897 -->
+        <div class="tarjeta"><div class="foto" id="foto7" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/58/79/28/97/1200x1200/2044577090.jpg?isFirstImage=true')"></div><div class="info"><div class="precio">USD 130.000</div><div class="nombre">Casa 5 ambientes</div><div class="detalle"><span>195m² cub</span><span>terreno 300m²</span><span>3 dorm</span></div><div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/veclcain-casa-y-cerveceria-en-lago-puelo-fz-6-58792897.html" target="_blank">🔗 Ver publicación</a></div></div></div>
+    </div></div>
+
+        <!-- ================= ISLA CENTRO ================= -->
+    <div class="zona"><div class="zona-titulo">🏝️ Isla Centro</div><div class="grid">
+
+        <!-- Búngalo - ZonaProp ID: 51872747 -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/51/87/27/47/1200x1200/1878282641.jpg?isFirstImage=true'); background-size:cover; background-position:center;"></div>
+            <div class="info">
+                <div class="precio">USD 80.000</div>
+                <div class="nombre">🏠 Búngalo - Domingo Cayun</div>
+                <div class="detalle"><span>65m² cub</span><span>terreno 467m²</span><span>3 dorm</span></div>
+                <div class="obs">Cerca escuela</div>
+                <div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/veclcain-casa-en-lago-puelo.-51872747.html" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- Casa Isla Centro - con foto ML fija -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_963287-MLA107328676180_032026-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 85.000</div>
+                <div class="nombre">Casa Isla Centro sin salida</div>
+                <div class="detalle"><span>48m² cub</span><span>terreno 900m²</span><span>2 dorm</span><span>Sin gas</span></div>
+                <div class="obs">🌳 Muy buen terreno</div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-2999223864-casa-en-isla-centro-con-terreno-de-900-m2-lago-puelo-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+    </div></div>
+
+      <!-- ================= ISLA NORTE ================= -->
+    <div class="zona"><div class="zona-titulo">🌲 Isla Norte</div><div class="grid">
+
+        <!-- Lotes Isla Norte - con foto ML fija -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_2X_908656-MLA99214107258_112025-F.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 19.000</div>
+                <div class="nombre">Lotes Isla Norte</div>
+                <div class="detalle"><span>terreno 500m²</span></div>
+                <div class="obs">Preventa | Gas en proceso</div>
+                <div class="link"><a href="https://terreno.mercadolibre.com.ar/MLA-2605919336-077-lotes-en-pre-venta-en-lago-puelo-isla-norte-500-mt-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- Calle Cerro Motoco 30m² - con foto ML fija -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_630092-MLA109202280310_042026-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 59.000</div>
+                <div class="nombre">Calle Cerro Motoco</div>
+                <div class="detalle"><span>30m² cub</span><span>terreno 450m²</span><span>1 dorm</span></div>
+                <div class="obs">metros del Río Azul</div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-3148283850-isla-norte-lago-puelo-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- Casa Isla Norte - ZonaProp ID: 58288708 -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/58/28/87/08/1200x1200/2030696619.jpg?isFirstImage=true'); background-size:cover; background-position:center;"></div>
+            <div class="info">
+                <div class="precio">USD 65.000</div>
+                <div class="nombre">Casa Isla Norte - Roca del tiempo</div>
+                <div class="detalle"><span>80m² cub</span><span>terreno 500m²</span></div>
+                <div class="obs">Regular/Malo | Mejora alta</div>
+                <div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/veclcain-casa-en-isla-norte-58288708.html" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- Calle Cerro Motoco 55m² - con foto ML fija -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_612779-MLA105804285512_022026-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 77.000</div>
+                <div class="nombre">Calle Cerro Motoco</div>
+                <div class="detalle"><span>55m² cub</span><span>terreno 500m²</span><span>2 dorm</span></div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-1666972073-casa-en-venta-en-lago-puelo-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+    </div></div>
+
+    <!-- ================= PARAJE ENTRE RÍOS ================= -->
+    <div class="zona"><div class="zona-titulo">🌿 Paraje Entre Ríos</div><div class="grid">
+
+        <!-- Terreno - ZonaProp ID: 58556818 -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/58/55/68/18/1200x1200/2038172453.jpg?isFirstImage=true'); background-size:cover; background-position:center;"></div>
+            <div class="info">
+                <div class="precio">USD 30.000</div>
+                <div class="nombre">Terreno paraje al 500</div>
+                <div class="detalle"><span>500m²</span></div>
+                <div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/vecltrin-terreno-en-paraje-entre-rios.-lago-puelo.-58556818.html" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- Casa 65m² - ML Apta crédito -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_998583-MLA89583199141_082025-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 85.000</div>
+                <div class="nombre">Casa Pje Entre Ríos</div>
+                <div class="detalle"><span>65m² cub</span><span>terreno 300m²</span><span>2 dorm</span></div>
+                <div class="obs">🏦 Apta crédito</div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-2219766398-hermosa-casa-en-pje-entre-rios-lago-puelo-apta-credito-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- 5 ambientes 190m² -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_817194-MLA107570295732_032026-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 110.000</div>
+                <div class="nombre">5 ambientes</div>
+                <div class="detalle"><span>190m² cub</span><span>terreno 2000m²</span><span>3 dorm</span></div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-3020303120-casa-en-lago-puelo-190-m2-lote-2000-m2-3-dormitorios-quincho-gas-natural-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- 4 ambientes 102m² -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_836882-MLA107405301408_032026-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 115.000</div>
+                <div class="nombre">4 ambientes</div>
+                <div class="detalle"><span>102m² cub</span><span>terreno 3519m²</span><span>3 dorm</span></div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-3008550800-083-casa-102m2-en-venta-en-lago-puelo-paraje-entre-rios-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- 6 ambientes 120m² -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_702545-MLA108491081279_032026-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 130.000</div>
+                <div class="nombre">6 ambientes</div>
+                <div class="detalle"><span>120m² cub</span><span>terreno 670m²</span><span>3 dorm</span></div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-2223316856-casa-de-5-hambientes-en-pje-entre-rios-lago-puelo-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+    </div></div>
+
+        <!-- ================= RINCÓN DEL BOSQUE ================= -->
+    <div class="zona"><div class="zona-titulo">🌲 Rincón del Bosque</div><div class="grid">
+
+              <!-- Lote Rincón del Bosque (ZonaProp) -->
+             <!-- Lote Rincón del Bosque (ZonaProp + ubicación en mapa) -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/58/60/16/65/1200x1200/2039478213.jpg?isFirstImage=true'); background-size:cover; background-position:center;"></div>
+            <div class="info">
+                <div class="precio">USD 28.000 - 45.000</div>
+                <div class="nombre">Lote Rincón del Bosque</div>
+                <div class="detalle"><span>900-1000m²</span></div>
+                <div class="obs">⚡ Sin gas (conexión USD 2000) | Servicios aparte</div>
+                <div class="obs">📍 <a href="https://www.google.com/maps/d/viewer?mid=1lR6ucrSUvSHQKpTKd6d9uVfmv_WrZNA&ll=-42.04609824037922%2C-71.5957594063296&z=15" target="_blank" style="color:#1e6f3f; text-decoration:none;">Ver ubicación en mapa</a></div>
+                <div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/vecltrin-rincon-del-bosque-ii-oportunidad-en-la-patagonia!-58601665.html" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- Casa 88m² (terreno 500m²) -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/58/61/76/92/1200x1200/2039906848.jpg?isFirstImage=true'); background-size:cover; background-position:center;"></div>
+            <div class="info">
+                <div class="precio">USD 95.000</div>
+                <div class="nombre">Casa 88m²</div>
+                <div class="detalle"><span>88m² cub</span><span>terreno 500m²</span></div>
+                <div class="obs">🚧 70% avance | terreno plano</div>
+                <div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/veclcain-casa-en-venta-88-m-sup2--2-dorm.-cochera-58617692.html" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- Casa 88m² (terreno 900m²) -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/58/61/76/92/1200x1200/2039906848.jpg?isFirstImage=true'); background-size:cover; background-position:center;"></div>
+            <div class="info">
+                <div class="precio">USD 110.000</div>
+                <div class="nombre">Casa 88m² (900 terreno)</div>
+                <div class="detalle"><span>88m² cub</span><span>terreno 900m²</span></div>
+                <div class="obs">🚧 70% avance | terreno plano</div>
+                <div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/veclcain-casa-en-venta-88-m-sup2--2-dorm.-cochera-58617692.html" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+    </div></div>
+    <!-- ================= VILLA DEL LAGO ================= -->
+    <div class="zona"><div class="zona-titulo">🏞️ Villa del Lago</div><div class="grid">
+
+        <!-- 1 ambiente -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_866484-MLA98492647938_112025-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 75.000</div>
+                <div class="nombre">1 ambiente</div>
+                <div class="detalle"><span>73m² cub</span><span>terreno 970m²</span></div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-1588287761-casa-en-venta-en-villa-del-lago-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- 3 ambientes -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://http2.mlstatic.com/D_NQ_NP_789663-MLA95133526807_102025-F-null.webp'); background-size:contain; background-position:center; background-repeat:no-repeat; background-color:#f0f0f0;"></div>
+            <div class="info">
+                <div class="precio">USD 75.000</div>
+                <div class="nombre">3 ambientes</div>
+                <div class="detalle"><span>70m² cub</span><span>terreno 599m²</span></div>
+                <div class="obs">🛣️ calle sin salida</div>
+                <div class="link"><a href="https://casa.mercadolibre.com.ar/MLA-1557914373-075-casa-en-exclusiva-zona-de-villa-del-lago-en-lago-puelo-_JM" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+    </div></div>
+
+        <!-- ================= ZONA CHOCOLATERÍA ================= -->
+    <div class="zona"><div class="zona-titulo">🍫 Zona chocolatería</div><div class="grid">
+
+        <!-- Llaten 700-900m² -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/55/61/12/47/1200x1200/1960606645.jpg?isFirstImage=true'); background-size:cover; background-position:center;"></div>
+            <div class="info">
+                <div class="precio">USD 40.000</div>
+                <div class="nombre">Llaten</div>
+                <div class="detalle"><span>700-900m²</span></div>
+                <div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/vecltrin-terreno-700-m-sup2--en-lago-puelo-casco-urbano-ez-55611247.html" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+
+        <!-- Llaten y callejón Fernández 781m² -->
+        <div class="tarjeta">
+            <div class="foto" style="background-image:url('https://imgar.zonapropcdn.com/avisos/resize/1/00/53/67/43/38/1200x1200/1911720672.jpg?isFirstImage=true'); background-size:cover; background-position:center;"></div>
+            <div class="info">
+                <div class="precio">USD 40.000</div>
+                <div class="nombre">Llaten y callejón Fernández</div>
+                <div class="detalle"><span>781m²</span></div>
+                <div class="link"><a href="https://www.zonaprop.com.ar/propiedades/clasificado/vecltrin-amplios-lotes-en-el-centro-de-lago-puelo-781-m-sup2-53674338.html" target="_blank">🔗 Ver publicación</a></div>
+            </div>
+        </div>
+    </div></div>
+
+   
+
+
+    
+</div>
+</body>
+</html>
